@@ -13,7 +13,15 @@ body {
     justify-content: center; 
 }
 
-main {
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#qr-code {
     background: white;
     width: 260px;
     margin: auto;
@@ -23,7 +31,7 @@ main {
     text-align: center;
 }
 
-#code {
+#qr-code img {
     text-align: center;
     border-radius: 10px;
     width: 100%;
