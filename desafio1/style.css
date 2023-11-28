@@ -1,100 +1,42 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 
 :root {
-    --font1: 'Lexend Deca';
-    --font2: 'Big Shoulders Display';
+    --font: 'Outfit';
 }
 
 body {
-    font-size: 15px;
-    min-width: 375px;
-    max-width: 1440px;
+    background-color: hsla(207, 44%, 81%, 0.5);
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+main {
+    background: white;
+    width: 260px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 13px 10px;
+    font-family: var(--font);
     text-align: center;
-    background-color: rgba(128, 128, 128, 0.178);
+}
+
+#code {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
 }
 
 h1 {
-    font-family: var(--font2);
-    font-size: 28pt;
-    text-transform: uppercase;
-    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 2px 5px 0px 5px;
 }
 
 p {
-    font-family: var(--font1);
-    font-size: 1.1em;
-    line-height: 1.8em;
-    color: hsla(0, 0%, 100%, 0.75);
-}
-
-.column {
-    display: inline-block;
-    width: 200px;
-    height: 400px;
-    margin: -2px;
-    padding: 40px;
-    text-align: left;
-    border: 1px solid transparent;
-}
-
-#sedans {
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 10px 0px 0px 10px;
-}
-
-#suvs {
-    background-color: hsl(184, 100%, 22%);
-}
-
-#luxury {
-    background-color: hsl(179, 100%, 13%);
-    border-radius: 0px 10px 10px 0px;
-}
-
-button {
-    background-color: hsl(0, 0%, 95%);
-    font-family: var(--font1);
-    font-weight: bold;
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    width: 140px;
-    height: 45px;
-    position: absolute; 
-    transform: translate(2%, 50%);
-}
-
-button:hover {
-    border: 2px solid white;
-}
-
-#btnsed {
-    color: hsl(31, 77%, 52%);
-}
-
-#btnsed:hover {
-    background-color: hsl(31, 77%, 52%);
-    color: white;
-}
-
-#btnsuv {
-    color: hsl(184, 100%, 22%);
-}
-
-#btnsuv:hover {
-    background-color: hsl(184, 100%, 22%);
-    color: white;
-}
-
-#btnlux {
-    color: hsl(179, 100%, 13%);
-}
-
-#btnlux:hover {
-    background-color: hsl(179, 100%, 13%);
-    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
 }
