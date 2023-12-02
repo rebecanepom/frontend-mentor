@@ -2,8 +2,42 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+:root {
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-fraunces: 'Fraunces', sans-serif;
+}
+
 body {
     min-width: 375px;
     max-width: 1440px;
     background-color: hsl(30, 38%, 92%);
+}
+
+#description {
+    background-color: white;
+    padding: 20px;
+}
+
+p {
+    font-family: var(--font-montserrat);
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+p#perf {
+    font-family: var(--font-montserrat);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+h1 {
+    font-family: var(--font-fraunces);
+}
+
+h2 {
+    font-family: var(--font-fraunces);
+    color: hsl(158, 36%, 37%);
 }
