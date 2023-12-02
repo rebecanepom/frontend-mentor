@@ -41,3 +41,10 @@ h2 {
     font-family: var(--font-fraunces);
     color: hsl(158, 36%, 37%);
 }
+
+button {
+    width: 200px;
+    height: 50px;
+    font-family: var(--font-montserrat);
+    color: white;
+}
