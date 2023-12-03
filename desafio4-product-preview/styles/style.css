@@ -38,9 +38,10 @@ p {
     font-family: var(--font-montserrat);
     font-size: 14px;
     color: hsl(228, 12%, 48%);
+    line-height: 1.8em;
 }
 
-p#perf {
+p#perfume {
     font-family: var(--font-montserrat);
     text-transform: uppercase;
     letter-spacing: 5px;
