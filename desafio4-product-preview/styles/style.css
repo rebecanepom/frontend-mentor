@@ -43,12 +43,19 @@ div#product {
 }
 
 div#description {
-    padding: 20px;
+    padding: 5px 20px;
+}
+
+div#description > h1 {
+    font-family: var(--font-fraunces);
+    font-size: 1.8em;
+    margin-top: 5px;
 }
 
 div#description > p {
     font-family: var(--font-montserrat);
     font-size: 14px;
+    margin-top: 10px;
     color: hsl(228, 12%, 48%);
     line-height: 1.8em;
 }
@@ -58,12 +65,6 @@ div#description > p#perfume {
     letter-spacing: 5px;
     font-size: .7em;
     color: hsl(228, 12%, 48%);
-}
-
-div#description > h1 {
-    font-family: var(--font-fraunces);
-    font-size: 1.8em;
-    margin-top: 5px;
 }
 
 div.price {
@@ -89,7 +90,7 @@ div.price > p {
 
 button {
     width: 100%;
-    height: 50px;
+    height: 40px;
     font-family: var(--font-montserrat);
     color: white;
     background-color: hsl(158, 36%, 37%);
@@ -100,13 +101,16 @@ button {
 button > div {
     position: relative;
     float: left;
-    left: 80px;
-    padding: 5px;
+    left: 75px;
+    padding-top: 5px;
+}
+
+button > div > img {
+    width: 13px;
 }
 
 button > p {
     margin-top: 5px;
-    font-weight: bold;
 }
 
 button:hover {
