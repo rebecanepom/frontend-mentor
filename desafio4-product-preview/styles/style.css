@@ -35,7 +35,7 @@ section {
     transform: translate(-50%, -50%);
 }
 
-div#product {
+div#photo {
     background: url(../images/image-product-desktop.jpg) center center /cover no-repeat;
     width: 100%;
     height: 200px;
