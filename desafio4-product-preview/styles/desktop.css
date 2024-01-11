@@ -15,20 +15,9 @@ div#photo {
 
 div#description {
     width: 250px;
-    /* padding-left: 30px;
-    padding-right: 30px; */
     padding: 0px 30px 30px;
 }
 
-div#description > h1 {
-    padding-top: 10px;
-}
-
-#description > p {
-    padding-top: 5px;
-    
-}
-
 button > div {
-    left: 65px;
+    left: 55px;
 }
