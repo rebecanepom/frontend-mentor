@@ -21,20 +21,77 @@
 
 body {
     background-color: hsl(210, 46%, 95%);
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13px;
 }
 
 main {
-    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 400px;
+    width: 100vh;
+    height: 100vh;
 }
 
-#image {
-    background: url('images/drawers.jpg') center center /cover no-repeat fixed;
-    width: 100px;
-    height: 100px;
+section {
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+div#image {
+    display: block;
+    background: url('images/drawers.jpg') top center /cover no-repeat;
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 170px;
+}
+
+div#text {
+    padding: 20px;
+}
+
+p {
+    color: hsl(212, 23%, 69%);
+}
+
+h1 {
+    color: hsl(217, 19%, 35%);
+    font-family: var(--headings);
+    font-size: 13px;
+}
+
+h2 {
+    color: hsl(217, 19%, 35%);
+    font-size: 12px;
+}
+
+div#avatar {
+    padding-top: 20px;
+}
+
+div#avatar > div#img {
+    position: relative;
+    float: left;
+    left: 5px;
+}
+
+div#avatar > div > img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+div#avatar > div#dados {
+    position: relative;
+    float: left;
+    left: 20px;
+}
+
+div#share {
+    padding: 50px;
 }
